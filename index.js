@@ -7,6 +7,7 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function (){
 
     var buttonInnerHtml = this.innerHTML;
     makeSound(buttonInnerHtml);
+    buttonAnimation(buttonInnerHtml);
 });
 
 }
